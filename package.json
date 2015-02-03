@@ -1,0 +1,28 @@
+{
+  "name": "passport-automatic",
+  "version": "1.0.0",
+  "description": "Automatic.com authentication strategy for Passport",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octoblu/passport-automatic.git"
+  },
+  "keywords": [
+    "passport",
+    "automatic",
+    "survey",
+    "monkey"
+  ],
+  "author": "Octoblu Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/passport-automatic/issues"
+  },
+  "homepage": "https://github.com/octoblu/passport-automatic",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2"
+  }
+}
