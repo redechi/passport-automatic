@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/octoblu/passport-automatic.git"
+    "url": "https://github.com/automatic/passport-automatic.git"
   },
   "keywords": [
     "passport",
     "automatic"
   ],
-  "author": "Octoblu Inc",
+  "author": "Automatic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/octoblu/passport-automatic/issues"
+    "url": "https://github.com/automatic/passport-automatic/issues"
   },
-  "homepage": "https://github.com/octoblu/passport-automatic",
+  "homepage": "https://github.com/automatic/passport-automatic",
   "dependencies": {
     "passport-oauth2": "^1.1.2"
   }
