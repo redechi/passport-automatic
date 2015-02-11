@@ -24,6 +24,7 @@ specifying a client ID, client secret, and callback URL.
     passport.use(new AutomaticStrategy({
         clientID: AUTOMATIC_CLIENT_ID,
         clientSecret: AUTOMATIC_CLIENT_SECRET,
+        scope: ['scope:user:profile', 'scope:trip', 'scope:location', 'scope:vehicle:profile', 'scope:vehicle:events', 'scope:behavior']
       },
       function(accessToken, refreshToken, profile, done) {
         User.findOrCreate({ automaticId: profile.id }, function (err, user) {
