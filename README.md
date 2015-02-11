@@ -51,8 +51,24 @@ application:
         res.redirect('/');
       });
 
+#### Get Access Token
+
+Passport adds a `user` attribute to `req`, so you can get the access token with `req.user.accessToken`.
+
+Example:
+
+    //fetches most recent 25 trips
+    request.get({
+      uri: 'https://api.automatic.com/trip/',
+      headers: {Authorization: 'bearer ' + req.user.accessToken},
+      json: true
+    }, function(e, r, body) {
+      //body contains api response
+    });
+
 ## Credits
 
+  - [Brendan Nee](https://github.com/brendannee)
   - [Alisa "Cats" Palson](https://github.com/octoblu)
   - [Jared Hanson](http://github.com/jaredhanson)
 
@@ -60,4 +76,4 @@ application:
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2015 JAutomatic
+Copyright (c) 2015 Automatic
