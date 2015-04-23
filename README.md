@@ -74,6 +74,4 @@ Example:
 
 ## License
 
-[The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2015 Automatic
+This project is licensed under the terms of the Apache 2.0 license.

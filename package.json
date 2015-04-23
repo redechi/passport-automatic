@@ -10,12 +10,12 @@
     "type": "git",
     "url": "https://github.com/automatic/passport-automatic.git"
   },
+  "license": "Apache-2.0",
   "keywords": [
     "passport",
     "automatic"
   ],
   "author": "Automatic",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/automatic/passport-automatic/issues"
   },
